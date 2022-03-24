@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clinica veterinária</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <h1>DogCat - Clinica Veterinária</h1>
+    <!--exemplo de tabela-->
+    <table border="1"> <!--tag para criar a tabela o numero e pra mostrar as bordas -->
+        <thead>
+            <tr>
+                <th colspan="5"> Relação de Animais internados</th> <!-- colspan e para mesclar duas colunas e uma linha o numero
+                indica o numero de colunas que vai ser mesclado-->
+            </tr>
+            <tr>
+                <th>Foto</th>
+                <th>Especie</th>
+                <th>Raça</th>
+                <th>Nome</th>
+                <th>Peso</th>
+            </tr>
+        </thead>
+
+        <tr>
+            <td><img src="images/cão.jpeg" title="dog" alt="dog" /></td> <!--tag img para colocar imagem no site-->
+            <td>canina</td>
+            <td>SRD</td>
+            <td>Laika</td>
+            <td class="direita">17.50</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>canina</td>
+            <td>York</td>
+            <td>Tayna</td>
+            <td class="direita">2.40</td>
+        </tr>
+        <tr>
+            <td class="direita" colspan="3">Total de Animais Internados</td> <!-- class= tag para alinhamento do texto a direita,
+            esquerda ou centralizado-->
+            <td class="direita" colspan="2">4</td>
+        </tr>
+
+    </table>
+
+
+</body>
+
+</html>

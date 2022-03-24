@@ -1,0 +1,26 @@
+/* projeto.CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');/* copiado do google fonts*/
+body{
+    background-color: #cccccc;
+    font-family: 'Dancing Script';
+}
+th{
+    background-color: #0000ff; /* cor de fundo*/
+    color: #ffffff;/* cor da fonte */
+    padding: 8px;/*margem interna (altura da coluna) */
+}
+
+td{
+    padding: 4PX;
+    text-align: center;
+}
+table{
+    width: 50%; /* largura da coluna*/
+}
+.direita{
+    text-align: right; /*vai no index e coloca class= esse nome para mudar so a linha*/
+}
+img{
+    width: 100px;
+    border-radius: 100px;
+}
